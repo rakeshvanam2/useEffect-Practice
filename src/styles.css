@@ -2,3 +2,22 @@
   font-family: sans-serif;
   text-align: center;
 }
+.cocktail-data {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.cocktail-data li {
+  list-style-type: none;
+}
+.cocktail-data li img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+@media screen and (min-width: 760px) {
+  .cocktail-data {
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

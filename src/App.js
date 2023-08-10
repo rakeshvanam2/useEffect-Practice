@@ -1,5 +1,5 @@
 import "./styles.css";
-import Data from "./useEffect-Example-1";
+import Data from "./useEffect-Example-2";
 
 function App() {
   return (
